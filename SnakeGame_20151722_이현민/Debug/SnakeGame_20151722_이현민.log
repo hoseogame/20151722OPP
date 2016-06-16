@@ -1,0 +1,3 @@
+﻿  MaIN.cpp
+c:\users\blue-pc\desktop\snakegame_20151722_이현민\snakegame_20151722_이현민\snakegame_20151722_이현민\gotoxy.h(7): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  SnakeGame_20151722_이현민.vcxproj -> C:\Users\Blue-PC\Desktop\SnakeGame_20151722_이현민\SnakeGame_20151722_이현민\Debug\SnakeGame_20151722_이현민.exe

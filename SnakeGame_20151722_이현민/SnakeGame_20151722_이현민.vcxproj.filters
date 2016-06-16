@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Snake">
+      <UniqueIdentifier>{d9a5c8f0-bbf0-4353-97d1-b3b361f13d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Snake\Field">
+      <UniqueIdentifier>{0113e174-7244-4afa-95ad-67805db1b6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Snake\Gotoxy">
+      <UniqueIdentifier>{76cb5a4f-2338-40e2-9f90-c0da34e3e9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Snake\Input">
+      <UniqueIdentifier>{7fb4c993-d1e4-4b48-b8d2-1b8b8d12d37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Snake\Object">
+      <UniqueIdentifier>{7ad8b1b1-0a8f-45b0-800f-a17a8d4240e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Snake\Screen">
+      <UniqueIdentifier>{e0f7bcb1-99e7-4e84-ba5f-36c53bfac064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Snake">
+      <UniqueIdentifier>{36157b68-fa8b-43d1-8e89-44678de197eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Snake\Main">
+      <UniqueIdentifier>{5568db6c-8789-40bf-b39d-7dddac9b9995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Snake\Input">
+      <UniqueIdentifier>{9af170af-336c-4d57-a992-626f9ee864ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Snake\Field">
+      <UniqueIdentifier>{8de159da-7b08-466c-ad8b-1266dbf58842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Snake\Object">
+      <UniqueIdentifier>{38fa35d0-c39f-4a01-8c15-81ebf10f7bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Snake\Screen">
+      <UniqueIdentifier>{9d5a5c40-5d2b-4a8c-8bb4-2c038f81c911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Football">
+      <UniqueIdentifier>{1055ae02-adbf-4b69-8094-0921f59c12f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Football">
+      <UniqueIdentifier>{9fd3b0e6-ec18-4471-be16-2618fb569c4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Intro_Screen.cpp">
+      <Filter>소스 파일\Snake\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="End_Screen.cpp">
+      <Filter>소스 파일\Snake\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Screen.cpp">
+      <Filter>소스 파일\Snake\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Screen.cpp">
+      <Filter>소스 파일\Snake\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake_Game.cpp">
+      <Filter>소스 파일\Snake\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\Snake\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\Snake\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>소스 파일\Snake\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>소스 파일\Snake\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일\Snake\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>소스 파일\Snake\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Snakemain.cpp">
+      <Filter>소스 파일\Snake\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Football.cpp">
+      <Filter>소스 파일\Football</Filter>
+    </ClCompile>
+    <ClCompile Include="Football_FX.cpp">
+      <Filter>소스 파일\Football</Filter>
+    </ClCompile>
+    <ClCompile Include="Football_Screen.cpp">
+      <Filter>소스 파일\Football</Filter>
+    </ClCompile>
+    <ClCompile Include="FootballMain.cpp">
+      <Filter>소스 파일\Football</Filter>
+    </ClCompile>
+    <ClCompile Include="MaIN.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Intro_Screen.h">
+      <Filter>헤더 파일\Snake\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="End_Screen.h">
+      <Filter>헤더 파일\Snake\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Screen.h">
+      <Filter>헤더 파일\Snake\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Screen.h">
+      <Filter>헤더 파일\Snake\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake_Game.h">
+      <Filter>헤더 파일\Snake\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일\Snake\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>헤더 파일\Snake\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>헤더 파일\Snake\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>헤더 파일\Snake\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>헤더 파일\Snake\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>헤더 파일\Snake\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Gotoxy.h">
+      <Filter>헤더 파일\Snake\Gotoxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Football.h">
+      <Filter>헤더 파일\Football</Filter>
+    </ClInclude>
+    <ClInclude Include="Football_FX.h">
+      <Filter>헤더 파일\Football</Filter>
+    </ClInclude>
+    <ClInclude Include="Football_Screen.h">
+      <Filter>헤더 파일\Football</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
